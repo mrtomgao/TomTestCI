@@ -10,5 +10,11 @@ namespace TomsTestCI.Functions
         {
             return s + "LOL";
         }
+
+        public static string GetHaha(string s)
+        {
+            return s + "Haha";
+        }
+
     }
 }
