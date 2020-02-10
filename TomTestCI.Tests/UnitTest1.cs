@@ -30,7 +30,7 @@ namespace TomTestCI.Tests
         [Test]
         public void Neg_GetHaha()
         {
-            Assert.That(Helpers.GetHaha("1") != "hehe");
+            Assert.That(Helpers.GetHaha("1") != "Haha");
         }
     }
 }
