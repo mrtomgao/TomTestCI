@@ -24,13 +24,13 @@ namespace TomTestCI.Tests
         [Test]
         public void Pos_GetHaha()
         {
-            Assert.That(Helpers.GetLOL("1") == "1Haha");
+            Assert.That(Helpers.GetHaha("1") == "1Haha");
         }
 
         [Test]
         public void Neg_GetHaha()
         {
-            Assert.That(Helpers.GetLOL("1") != "Haha");
+            Assert.That(Helpers.GetHaha("1") != "hehe");
         }
     }
 }
