@@ -20,6 +20,10 @@ namespace TomsTestCI.Functions
         {
             return s + "Wassup";
         }
+        public static string GetHi(string s)
+        {
+            return s + "Hi";
+        }
 
     }
 }
