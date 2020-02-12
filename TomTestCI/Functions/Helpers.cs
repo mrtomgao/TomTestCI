@@ -16,9 +16,9 @@ namespace TomsTestCI.Functions
             return s + "Haha";
         }
 
-        public static string GetHehe(string s)
+        public static string GetShoot(string s)
         {
-            return s + "Hehe";
+            return s + "Shoot";
         }
 
     }
