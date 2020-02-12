@@ -21,16 +21,5 @@ namespace TomTestCI.Tests
         {
             Assert.That(Helpers.GetLOL("1") != "LOL");
         }
-        [Test]
-        public void Pos_GetHaha()
-        {
-            Assert.That(Helpers.GetHaha("1") == "1Haha");
-        }
-
-        [Test]
-        public void Neg_GetHaha()
-        {
-            Assert.That(Helpers.GetHaha("1") != "Haha");
-        }
     }
 }
