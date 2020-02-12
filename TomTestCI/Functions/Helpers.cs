@@ -21,5 +21,10 @@ namespace TomsTestCI.Functions
             return s + "Shoot";
         }
 
+        public static string GetShiz(string s)
+        {
+            return s + "Shiz";
+        }
+
     }
 }
