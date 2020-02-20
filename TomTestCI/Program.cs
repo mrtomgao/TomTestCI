@@ -6,7 +6,7 @@ namespace TomTestCI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Wassup Werld!");
         }
     }
 }
