@@ -34,5 +34,14 @@ namespace TomTestCI.Tests
             Assert.That(Helpers.GetHAHA("") != "1HAHA");
         }
 
+        [Test]
+        public void Pos_GetLeon()
+        {
+            Assert.That(Helpers.GetLeon("1") == "1LEON");
+        
+        }
+
+
+
     }
 }
