@@ -11,35 +11,17 @@ namespace TomTestCI.Tests
         }
 
         [Test]
-        public void Pos_GetLOL()
+        public void Pos_GetTom()
         {
-            Assert.That(Helpers.GetLOL("1") == "1LOL");
+            Assert.That(Helpers.GetTom("1") == "1Tom");
         }
 
         [Test]
-        public void Neg_GetLOL()
+        public void Neg_GetTom()
         {
-            Assert.That(Helpers.GetLOL("") != "1LOL");
+            Assert.That(Helpers.GetTom("") != "1Tom");
         }
 
-        [Test]
-        public void Pos_GetHAHA()
-        {
-            Assert.That(Helpers.GetHAHA("1") == "1HAHA");
-        }
-
-        [Test]
-        public void Neg_GetHAHA()
-        {
-            Assert.That(Helpers.GetHAHA("") != "1HAHA");
-        }
-
-        [Test]
-        public void Pos_GetLeon()
-        {
-            Assert.That(Helpers.GetLeon("1") == "1LEON");
-        
-        }
 
 
 

@@ -6,19 +6,10 @@ namespace TomsTestCI.Functions
 {
     public static class Helpers
     {
-        public static string GetLOL(string s)
+        public static string GetTom(string s)
         {
-            return s + "LOL";
+            return s + "Tom";
         }
 
-        public static string GetHAHA(string s)
-        {
-            return s + "HAHA";
-        }
-
-        public static string GetLeon(string s)
-        {
-            return s + "LEON";
-        }
     }
 }
