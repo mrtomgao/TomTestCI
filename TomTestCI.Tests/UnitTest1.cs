@@ -21,9 +21,5 @@ namespace TomTestCI.Tests
         {
             Assert.That(Helpers.GetTom("") != "1Tom");
         }
-
-
-
-
     }
 }
