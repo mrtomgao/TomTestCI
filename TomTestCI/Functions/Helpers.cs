@@ -18,7 +18,7 @@ namespace TomsTestCI.Functions
 
         public static string GetLeon(string s)
         {
-            return s + "LEON";
+            return s + "LEAN";
         }
     }
 }
