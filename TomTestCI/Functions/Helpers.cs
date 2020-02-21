@@ -8,7 +8,7 @@ namespace TomsTestCI.Functions
     {
         public static string GetTom(string s)
         {
-            return s + "Toms";
+            return s + "Tom";
         }
 
     }
