@@ -11,5 +11,9 @@ namespace TomsTestCI.Functions
             return s + "Tom";
         }
 
+        public static string GetLeon(string s)
+        {
+            return s + "Leon";
+        }
     }
 }
