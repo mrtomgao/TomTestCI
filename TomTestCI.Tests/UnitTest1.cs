@@ -21,5 +21,11 @@ namespace TomTestCI.Tests
         {
             Assert.That(Helpers.GetTom("") != "1Tom");
         }
+
+        [Test]
+        public void Pos_GetSteve()
+        {
+            Assert.That(Helpers.GetSteve("1") == "1Steve");
+        }
     }
 }
